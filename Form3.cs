@@ -28,8 +28,8 @@ namespace Table_Accounting
         DataTable tb = new DataTable();     
         IFirebaseConfig config = new FirebaseConfig
         {
-            AuthSecret = "2S6fI9MPza2BH2blU3kP6NSgk4uT5HjUOcBhbGvW",
-            BasePath = "https://miniproject-advancecom.firebaseio.com/"
+            AuthSecret = "...", //add database
+            BasePath = "..."
         };
         IFirebaseClient client;
 
